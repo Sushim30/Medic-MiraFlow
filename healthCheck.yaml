@@ -1,0 +1,35 @@
+version: "1.0.0"
+
+metadata:
+  name: "health-check-generator"
+  description: "to take symptoms of user with their age and weight and give the appropriate diseases to be concerned of"
+  author: "@ayush1204"
+  tags: [tag1, tag2, tag3]
+  private: false
+
+inputs:
+  age:
+    type: string
+    description: "Age of the user"
+    required: true
+    example: "18"
+  weight:
+    type: string
+    description: "weight of the patient (in Kg)"
+    required: true
+    example: "50 kg"
+  symptoms:
+    type: string
+    description: "Symptoms that the patient is observing"
+    required: true
+    example: "Cold , Fever , Fatigue"
+
+model:
+  provider: "openai"
+  name: "gpt-4o"
+
+prompt: |
+  My age is {age} and my weight is {weight} , i am having the following symptoms: {symptoms} . Please suggest me some medicines that can give me instant relief and also mention the side effects of medicine(if any). Furthermore suggest brands of that medicine too.
+
+readme: |
+  The medicine prescriber based on your symptoms
