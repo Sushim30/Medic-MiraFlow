@@ -71,6 +71,13 @@ def show_wait_screen():
     screen.blit(wait_surface, wait_surface.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)))
     pygame.display.update()
 
+def show_complete_screen():
+    screen.fill((0, 225, 0))  # Green background
+    wait_surface = WAIT_FONT.render("Done", True, TEXT_COLOR)
+    screen.blit(wait_surface, wait_surface.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)))
+    pygame.display.update()
+    pygame.time.delay(2000)
+    running = False
 
 def submit_form(inputs):
     global result
@@ -117,9 +124,8 @@ while running:
     # Display GUI or wait screen based on the processing state
     if processing and result == "" :
         show_wait_screen()
-    # elif result != "":
-        
-        
+    elif result != "":
+        show_complete_screen()
     else:
         processing = False  # Reset processing state if done
         Checkdraw_gui()

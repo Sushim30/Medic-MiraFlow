@@ -13,8 +13,8 @@ def update_inputs(input):
         "sex": input[2],
         "weight": input[3],
         "symptom1": input[4],
-        "symptom2": "",
-        "symptom3": ""
+        "symptom2": input[5],
+        "symptom3": input[6]
     }
     return input_data
 
