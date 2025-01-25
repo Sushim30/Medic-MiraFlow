@@ -1,31 +1,40 @@
-result: Based on the symptoms and personal information provided, here's an analysis of potential medical issues:
+result: Based on the input provided, the system would analyze the symptoms and provide potential medical issues that could be related to them. It's important to note that while such systems can provide general guidance, they don't replace professional medical advice. Here is an example of what the output might look like:
 
-### Potential Medical Issues for Sushim
+---
 
-1. **Migraine**:
-   - **Symptoms**: Headache and vomiting are common symptoms.
-   - **Things to Consider**: If headaches are severe, occur with nausea, and are recurrent, it may be a sign of migraines. Consider keeping a headache diary and consult a healthcare provider for a proper diagnosis and management plan.
+**Patient Information:**
+- **Name:** Random
+- **Age:** 21 years
+- **Sex:** Male
+- **Weight:** 50 kg
 
-2. **Gastroenteritis**:
-   - **Symptoms**: Stomach ache and vomiting.
-   - **Things to Consider**: This could be due to a viral or bacterial infection in the gastrointestinal tract. Keeping hydrated and maintaining a simple diet could help, but if symptoms persist, consulting a doctor is advisable.
+**Reported Symptoms:**
+- Sneeze
+- Headache
+- Vomit
 
-3. **Food Poisoning**:
-   - **Symptoms**: Stomach ache and vomiting, sometimes accompanied by headaches if dehydration occurs.
-   - **Things to Consider**: This typically happens after consuming contaminated food. Stay hydrated and rest. If symptoms persist or worsen, seek medical attention.
+**Potential Medical Issues:**
 
-4. **Tension Headache**:
-   - **Symptoms**: Headache is the primary symptom.
-   - **Things to Consider**: Often related to stress, anxiety, or muscle strain. Regular breaks, stress management techniques, and over-the-counter pain relief can help, but chronic issues should be discussed with a healthcare provider.
+1. **Common Cold or Allergies:**
+   - **Description:** Sneezing and headache are common symptoms of a cold or allergic reaction. Allergies can occur due to exposure to pollen, dust, or pet dander.
+   
+2. **Migraine:**
+   - **Description:** Headaches accompanied by nausea or vomiting can be indicative of migraines. These are often one-sided and can be debilitating.
 
-### Recommendations
-- **Hydration**: Ensure Sushim stays hydrated, especially if vomiting persists.
-- **Diet**: Consider a bland diet until symptoms improve.
-- **Rest**: Allow for adequate rest and avoid strenuous activities until feeling better.
-- **Medical Consultation**: If symptoms persist for more than a couple of days, worsen, or are accompanied by other severe symptoms like high fever, it is essential to consult with a healthcare provider for an accurate diagnosis and appropriate treatment.
+3. **Gastroenteritis:**
+   - **Description:** Often referred to as the "stomach flu," symptoms include vomiting, which could be accompanied by headaches due to dehydration.
 
-### Future Susceptibility
-- **Diet and Lifestyle**: Maintaining a balanced diet and regular exercise can prevent future gastrointestinal issues.
-- **Stress Management**: Learning stress management and relaxation techniques can reduce the occurrence of migraines or tension headaches.
+4. **Sinusitis:**
+   - **Description:** Inflammation of the sinus cavities can cause headache and lead to symptoms such as sneezing if the sinusitis is related to allergies.
 
-Please keep in mind that this information is not a substitute for professional medical advice. It's advisable to consult a healthcare provider for an accurate diagnosis and treatment plan.
+**Recommendations:**
+- **Hydration:** Ensure adequate fluid intake, especially if experiencing vomiting.
+- **Rest:** Get plenty of rest to help your immune system combat any potential infection.
+- **Monitor Symptoms:** If symptoms persist or worsen, consult a healthcare professional.
+- **Allergy Testing:** Consider allergy testing if symptoms are recurrent and possibly related to environmental factors.
+
+**Disclaimer:** This analysis provides a general overview based on common symptoms and is not a substitute for professional medical evaluation. Please consult a healthcare provider for a precise diagnosis.
+
+--- 
+
+Keep in mind, actual medical diagnosis should always be conducted with the guidance of a healthcare professional.
