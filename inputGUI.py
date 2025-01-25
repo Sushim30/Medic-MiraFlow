@@ -1,6 +1,6 @@
 import pygame
 import threading
-from healthCheck import print_screen
+from healthy import print_screen,update_meds
 
 # Initialize Pygame
 pygame.init()
@@ -21,6 +21,7 @@ INPUT_BOX_WIDTH = 300
 INPUT_BOX_HEIGHT = 40
 
 result = ""
+medicine_recommended = ""
 
 # Screen setup
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -73,7 +74,7 @@ def show_wait_screen():
 
 def show_complete_screen():
     screen.fill((0, 225, 0))  # Green background
-    wait_surface = WAIT_FONT.render("Done", True, TEXT_COLOR)
+    wait_surface = WAIT_FONT.render("Done\nYour output file has been created, check it out", True, TEXT_COLOR)
     screen.blit(wait_surface, wait_surface.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)))
     pygame.display.update()
     pygame.time.delay(2000)
@@ -122,9 +123,12 @@ while running:
                 inputs[active_box] += event.unicode
 
     # Display GUI or wait screen based on the processing state
-    if processing and result == "" :
+    if processing and result == "" and medicine_recommended == "":
         show_wait_screen()
-    elif result != "":
+    elif result != "" and medicine_recommended == "":
+        medicine_recommended=update_meds(inputs)
+        show_wait_screen()
+    elif result != "" and medicine_recommended !="":
         show_complete_screen()
     else:
         processing = False  # Reset processing state if done
